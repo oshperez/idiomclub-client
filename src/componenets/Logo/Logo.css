@@ -1,0 +1,15 @@
+.logo {
+  display: flex;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.logo__mark {
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .logo__wordmark {
+    display: none;
+  }
+}

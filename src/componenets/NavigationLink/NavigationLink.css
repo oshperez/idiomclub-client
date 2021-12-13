@@ -1,0 +1,34 @@
+.navigation__link {
+  display: flex;
+  align-items: center;
+}
+
+.navigation__link-icon {
+  display: initial;
+  width: 24px;
+  height: 24px;
+  margin-right: 1rem;
+}
+
+@media screen and (min-width: 900px) {
+  .navigation__link {
+    display: inline-block;
+  }
+
+  .navigation__link::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background-color: var(--black-shade);
+    transition: width 0.3s;
+  }
+
+  .navigation__link:hover::after {
+    width: 100%;
+  }
+
+  .navigation__link-icon {
+    display: none;
+  }
+}

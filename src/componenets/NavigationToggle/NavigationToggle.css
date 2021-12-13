@@ -1,0 +1,67 @@
+.navigation__toggle {
+  --transition-delay-transform: 0s;
+  --transition-delay-topbottom: 0.3s;
+
+  position: absolute;
+  width: 45px;
+  height: 40px;
+  right: 0;
+  background: none;
+  outline: none;
+  border: none;
+  padding: 0 6px;
+  cursor: pointer;
+}
+
+.navigation__toggle-icon,
+.navigation__toggle-icon::before,
+.navigation__toggle-icon::after {
+  position: absolute;
+  width: 25px;
+  height: 2px;
+  background: var(--black-shade);
+  border-radius: 3px;
+  transition: width 0.3s ease, top 0.3s ease var(--transition-delay-topbottom),
+    bottom 0.3s ease var(--transition-delay-topbottom),
+    transform 0.3s ease var(--transition-delay-transform);
+}
+
+.navigation__toggle-icon {
+  left: 10px;
+}
+
+.navigation__toggle-icon::before,
+.navigation__toggle-icon::after {
+  content: "";
+  display: block;
+  bottom: 8px;
+}
+
+.navigation__toggle-icon::after {
+  top: 8px;
+}
+
+.navigation-menu--open .navigation__toggle {
+  --transition-delay-transform: 0.3s;
+  --transition-delay-topbottom: 0s;
+}
+
+.navigation-menu--open .navigation__toggle-icon {
+  width: 0;
+}
+
+.navigation-menu--open .navigation__toggle-icon::before {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+.navigation-menu--open .navigation__toggle-icon::after {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+@media screen and (min-width: 900px) {
+  .navigation__toggle {
+    display: none;
+  }
+}
