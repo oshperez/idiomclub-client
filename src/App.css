@@ -76,6 +76,10 @@
   padding: 0;
 }
 
+p {
+  line-height: var(--lh-lg);
+}
+
 a {
   text-decoration: none;
   color: #000;

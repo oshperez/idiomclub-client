@@ -1,0 +1,34 @@
+.button {
+  font-size: var(--fs-400);
+  text-decoration: none;
+  padding: 5px 1rem;
+  border: none;
+}
+
+.button--theme-outline-shadow {
+  font-weight: 400;
+  border: 2px solid var(--black-shade);
+  padding: 0.8rem 2.5rem;
+  box-shadow: 3px 5px var(--black-shade);
+}
+
+.button--theme-outline-shadow:hover {
+  background-color: var(--black-shade);
+  color: #fff;
+}
+
+/* Utility classes */
+
+.button-bg-blue {
+  background-color: var(--dark-blue);
+  border-color: var(--dark-blue);
+}
+
+.button-bg-black {
+  background-color: var(--black-shade);
+  border-color: var(--black-shade);
+}
+
+.button-font-light {
+  color: var(--white-shade);
+}
