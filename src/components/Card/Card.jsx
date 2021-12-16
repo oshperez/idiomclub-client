@@ -1,4 +1,4 @@
-import Bookmark from "componenets/Bookmark/Bookmark";
+import Bookmark from "components/Bookmark/Bookmark";
 import { ReactComponent as ArrowIcon } from "assets/icons/arrow-right.svg";
 
 import "./Card.css";

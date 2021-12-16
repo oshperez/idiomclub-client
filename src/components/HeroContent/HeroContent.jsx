@@ -1,8 +1,8 @@
-import AnimatedHeading from "componenets/AnimatedHeading/AnimatedHeading";
+import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
 import { ReactComponent as PeopleImg } from "assets/imgs/people.svg";
 
 import "./HeroContent.css";
-import "componenets/Button/Button.css";
+import "components/Button/Button.css";
 
 const HeroContent = () => {
   return (

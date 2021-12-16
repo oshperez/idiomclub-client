@@ -1,4 +1,4 @@
-import NavigationLink from "componenets/NavigationLink/NavigationLink";
+import NavigationLink from "components/NavigationLink/NavigationLink";
 
 import homeIcon from "assets/icons/home-solid.svg";
 import bookIcon from "assets/icons/book-solid.svg";

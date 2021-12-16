@@ -1,4 +1,4 @@
-import CardCollection from "componenets/CardCollection/CardCollection";
+import CardCollection from "components/CardCollection/CardCollection";
 
 import "./NewItems.css";
 

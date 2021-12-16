@@ -2,7 +2,7 @@ import { useState, useEffect, useRef } from "react";
 
 import Logo from "../Logo/Logo";
 import Navigation from "../Navigation/Navigation";
-import NavigationToggle from "componenets/NavigationToggle/NavigationToggle";
+import NavigationToggle from "components/NavigationToggle/NavigationToggle";
 
 import "./Header.css";
 

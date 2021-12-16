@@ -1,9 +1,10 @@
 import { useState, useEffect } from "react";
 
-import Header from "componenets/Header/Header";
-import Section from "componenets/Section/Section";
-import HeroContent from "componenets/HeroContent/HeroContent";
-import NewItems from "componenets/NewItems/NewItems";
+import Header from "components/Header/Header";
+import Section from "components/Section/Section";
+import HeroContent from "components/HeroContent/HeroContent";
+import NewItems from "components/NewItems/NewItems";
+import Newsletter from "components/Newsletter/Newsletter";
 
 import "./App.css";
 
@@ -32,6 +33,9 @@ function App() {
       </Section>
       <Section>
         <NewItems />
+      </Section>
+      <Section>
+        <Newsletter />
       </Section>
     </div>
   );

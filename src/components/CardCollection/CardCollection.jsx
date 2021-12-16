@@ -1,5 +1,5 @@
 import { cards } from "./CardCollection.data";
-import Card from "componenets/Card/Card";
+import Card from "components/Card/Card";
 
 import "./CardCollection.css";
 
