@@ -1,0 +1,36 @@
+.card-grid {
+  display: grid;
+  grid:
+    "card1 card2" 1fr
+    "card3 card4" 1fr
+    "card5 card6" 1fr /
+    1fr 1fr;
+  gap: clamp(2rem, 5vw + 0.5rem, 3rem);
+}
+
+.card-section__heading {
+  font-size: var(--fs-800);
+  margin-bottom: var(--space-lg);
+  line-height: 1;
+  
+}
+
+.card-section__paragraph {
+  max-width: 75ch;
+  font-size: var(--fs-400);
+  margin-bottom: var(--space-xl)
+}
+
+@media screen and (max-width: 900px) {
+  .card-grid {
+    grid: "card1" auto
+          "card2" auto
+          "card3" auto
+          "card4" auto
+          "card5" auto
+          "card6" auto
+          "card7" auto
+          "card8" auto /
+          minmax(250px, 650px);
+  }
+}

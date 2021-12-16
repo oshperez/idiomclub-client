@@ -1,0 +1,10 @@
+.new-items__heading {
+  font-size: var(--fs-700);
+  margin-bottom: var(--space-sm);
+}
+
+.new-items__paragraph {
+  max-width: 75ch;
+  font-size: var(--fs-400);
+  margin-bottom: var(--space-xl);
+}

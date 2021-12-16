@@ -34,6 +34,7 @@
   --light-blue: #98dbf6;
   --red-shade: #f03655;
   --black-shade: #1b1b2f;
+  --gray-shade: #edeeef;
   --white-shade: #f5f8ff;
 
   /* Font sizes */
@@ -57,7 +58,7 @@
   /* Spacing */
 
   --space-unit: 1em;
-  --space-xxxl: calc(10 * var(--space-unit));
+  --space-xxxl: calc(16 * var(--space-unit));
   --space-xxl: calc(8 * var(--space-unit));
   --space-xl: calc(4 * var(--space-unit));
   --space-lg: calc(2 * var(--space-unit));

@@ -3,6 +3,7 @@ import { useState, useEffect } from "react";
 import Header from "componenets/Header/Header";
 import Section from "componenets/Section/Section";
 import HeroContent from "componenets/HeroContent/HeroContent";
+import NewItems from "componenets/NewItems/NewItems";
 
 import "./App.css";
 
@@ -28,6 +29,9 @@ function App() {
       <Header handleToggleNavigationMenu={handleToggleNavigationMenu} />
       <Section>
         <HeroContent />
+      </Section>
+      <Section>
+        <NewItems />
       </Section>
     </div>
   );
