@@ -46,6 +46,7 @@
   --fs-500: 1.5rem;
   --fs-400: 1rem;
   --fs-300: 0.875rem;
+  --fs-200: 0.75rem;
 
   /* Line heights */
 
@@ -57,7 +58,7 @@
 
   /* Spacing */
 
-  --space-unit: 1em;
+  --space-unit: 1rem;
   --space-xxxl: calc(16 * var(--space-unit));
   --space-xxl: calc(8 * var(--space-unit));
   --space-xl: calc(4 * var(--space-unit));
@@ -113,6 +114,7 @@ ul {
     --fs-500: 1.25rem;
     --fs-400: 1rem;
     --fs-300: 0.813rem;
+    --fs-200: 0.6875rem;
   }
 }
 
@@ -125,5 +127,6 @@ ul {
     --fs-500: 1.188rem;
     --fs-400: 0.938rem;
     --fs-300: 0.75rem;
+    --fs-200: 0.625rem;
   }
 }

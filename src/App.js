@@ -5,6 +5,7 @@ import Section from "components/Section/Section";
 import HeroContent from "components/HeroContent/HeroContent";
 import NewItems from "components/NewItems/NewItems";
 import Newsletter from "components/Newsletter/Newsletter";
+import Footer from "components/Footer/Footer";
 
 import "./App.css";
 
@@ -37,6 +38,7 @@ function App() {
       <Section>
         <Newsletter />
       </Section>
+      <Footer />
     </div>
   );
 }
