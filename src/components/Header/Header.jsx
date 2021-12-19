@@ -6,7 +6,7 @@ import NavigationToggle from "components/NavigationToggle/NavigationToggle";
 
 import "./Header.css";
 
-const Header = ({ handleToggleNavigationMenu }) => {
+const Header = ({ isNavigationOpen, handleToggleNavigationMenu }) => {
   const [headerClass, setHeaderClass] = useState("header");
   const top = useRef(0);
 
@@ -49,10 +49,11 @@ const Header = ({ handleToggleNavigationMenu }) => {
         {headerClass === "header" ? (
           <>
             <Navigation />
-            <a href="#" className="header__sign-up-link">
-              Sign up
+            <a href="#" className="header__login button button--solid">
+              Log in
             </a>
             <NavigationToggle
+              isNavigationOpen={isNavigationOpen}
               handleToggleNavigationMenu={handleToggleNavigationMenu}
             />
           </>

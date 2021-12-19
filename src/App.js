@@ -28,8 +28,11 @@ function App() {
     <div
       className={`app ${isNavigationMenuOpen ? "navigation-menu--open" : ""}`}
     >
-      <Header handleToggleNavigationMenu={handleToggleNavigationMenu} />
-      <Section>
+      <Header
+        isNavigationOpen={isNavigationMenuOpen}
+        handleToggleNavigationMenu={handleToggleNavigationMenu}
+      />
+      <Section className="section--margin-bottom">
         <HeroContent />
       </Section>
       <Section>

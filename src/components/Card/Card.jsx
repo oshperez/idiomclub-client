@@ -24,7 +24,7 @@ const Card = ({ cardInfo }) => {
           <a href="#" className="card__footer-link">
             See more
           </a>
-          <ArrowIcon />
+          <ArrowIcon style={{ cursor: "pointer" }} />
         </div>
         <span className="card__date">{date}</span>
       </div>

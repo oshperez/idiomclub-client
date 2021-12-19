@@ -1,34 +1,28 @@
 .button {
-  font-size: var(--fs-400);
+  font-size: var(--fs-300);
+  text-transform: uppercase;
   text-decoration: none;
-  padding: 5px 1rem;
+  padding: 1rem 2.5rem;
   border: none;
+  border-radius: 5px;
 }
 
-.button--theme-outline-shadow {
-  font-weight: 400;
-  border: 2px solid var(--black-shade);
-  padding: 0.8rem 2.5rem;
-  box-shadow: 3px 5px var(--black-shade);
-}
-
-.button--theme-outline-shadow:hover {
-  background-color: var(--black-shade);
-  color: #fff;
-}
-
-/* Utility classes */
-
-.button-bg-blue {
+.button--solid {
+  color: #ffffff;
   background-color: var(--dark-blue);
-  border-color: var(--dark-blue);
 }
 
-.button-bg-black {
-  background-color: var(--black-shade);
-  border-color: var(--black-shade);
+.button--outline {
+  color: var(--dark-blue);
+  border: 2.5px solid var(--dark-blue);
 }
 
-.button-font-light {
-  color: var(--white-shade);
+.button--outline:hover {
+  background-color: var(--gray-shade);
+}
+
+@media screen and (max-width: 600px) {
+  .button {
+    padding: 0.8rem 2.2rem;
+  }
 }

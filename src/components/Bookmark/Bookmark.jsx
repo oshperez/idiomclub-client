@@ -7,7 +7,10 @@ const Bookmark = () => {
   const [isBookmarked, setIsBookmark] = useState();
 
   return (
-    <div onClick={() => setIsBookmark(!isBookmarked)}>
+    <div
+      onClick={() => setIsBookmark(!isBookmarked)}
+      style={{ cursor: "pointer" }}
+    >
       {isBookmarked ? <BookmarkFill /> : <BookmarkOutline />}
     </div>
   );

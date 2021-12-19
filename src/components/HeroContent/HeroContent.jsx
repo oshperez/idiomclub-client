@@ -1,5 +1,5 @@
 import AnimatedHeading from "components/AnimatedHeading/AnimatedHeading";
-import { ReactComponent as PeopleImg } from "assets/imgs/people.svg";
+import { ReactComponent as PeopleImg } from "assets/imgs/people 1.svg";
 
 import "./HeroContent.css";
 import "components/Button/Button.css";
@@ -20,7 +20,7 @@ const HeroContent = () => {
           tempora adipisci molestias accusamus incidunt quidem veniam, sapiente
           perspiciatis
         </p>
-        <a href="#" className="button button--theme-outline-shadow">
+        <a href="#" className="button button--outline">
           See More...
         </a>
       </div>

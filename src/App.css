@@ -1,27 +1,9 @@
 /* Custom fonts */
 
 @font-face {
-  font-family: "Proza Libre";
-  src: local("Proza Libre"),
-    url("assets/fonts/prozalibre/ProzaLibre-Regular.ttf") format("truetype");
-  font-weight: 400;
-}
-@font-face {
-  font-family: "Proza Libre";
-  src: local("Proza Libre"),
-    url("./assets/fonts/prozalibre/ProzaLibre-Medium.ttf") format("truetype");
-  font-weight: 500;
-}
-@font-face {
-  font-family: "Proza Libre";
-  src: local("Proza Libre"),
-    url("./assets/fonts/prozalibre/ProzaLibre-SemiBold.ttf") format("truetype");
-  font-weight: 600;
-}
-@font-face {
-  font-family: "Barrio";
-  src: local("Barrio"),
-    url("./assets/fonts/barrio/Barrio-Regular.ttf") format("truetype");
+  font-family: "Poppins";
+  src: local("Poppins"),
+    url("./assets/fonts/poppins/Poppins-Regular.ttf") format("truetype");
   font-weight: 400;
 }
 
@@ -58,7 +40,7 @@
 
   /* Spacing */
 
-  --space-unit: 1rem;
+  --space-unit: 1em;
   --space-xxxl: calc(16 * var(--space-unit));
   --space-xxl: calc(8 * var(--space-unit));
   --space-xl: calc(4 * var(--space-unit));
@@ -71,7 +53,7 @@
 /* Global styles */
 
 * {
-  font-family: "Proza Libre", "sans serif";
+  font-family: "Poppins", "sans serif";
   font-weight: 400;
   box-sizing: border-box;
   margin: 0;
